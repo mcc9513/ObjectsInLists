@@ -20,4 +20,3 @@ public class Animal {
         return "Animal Name: " + getName() + ", Is Dog: " + getIsDog();
     }
 }
-
