@@ -20,6 +20,11 @@ public class BooksMain {
             int publicationYear = Integer.parseInt(scanner.nextLine());
 
             books.add(new Books(title, pages, publicationYear));
+            books.add(new Books(pages, publicationYear));
+            books.add(new Books(title, publicationYear));
+            books.add(new Books(title, pages));
+            books.add(new Books(title));
+            books.add(new Books());
         }
 
         System.out.print("What would you like to print? (everything/name): ");

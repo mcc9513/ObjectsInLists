@@ -18,6 +18,9 @@ public class AnimalMain {
             boolean isDog = isDogInput.equalsIgnoreCase("yes");
 
             animals.add(new Animal(name, isDog));
+            animals.add(new Animal(name));
+            animals.add(new Animal(isDog));
+            animals.add(new Animal());
         }
 
         for (Animal animal : animals) {

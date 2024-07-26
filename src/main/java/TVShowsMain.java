@@ -20,6 +20,13 @@ public class TVShowsMain {
             String genre = scanner.nextLine();
 
             tvShows.add(new TVShows(showName, numberOfEpisodes, genre));
+            tvShows.add(new TVShows(showName, numberOfEpisodes));
+            tvShows.add(new TVShows(showName, genre));
+            tvShows.add(new TVShows(numberOfEpisodes, genre));
+            tvShows.add(new TVShows(showName));
+            tvShows.add(new TVShows(numberOfEpisodes));
+            tvShows.add(new TVShows(genre));
+
         }
 
         for (TVShows tvShow : tvShows) {
